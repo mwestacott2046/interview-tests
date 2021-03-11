@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "jest": "^26.6.3"
+  },
+  "name": "interview-tests",
+  "description": "A selection of solutions to interview tests.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "test-watch": "jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwestacott2046/interview-tests.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwestacott2046/interview-tests/issues"
+  },
+  "homepage": "https://github.com/mwestacott2046/interview-tests#readme"
+}
