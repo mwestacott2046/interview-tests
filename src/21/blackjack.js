@@ -68,8 +68,6 @@ const buildDeck = () => {
 // console.log('Card J should score 10: ',getCardScore('J'));
 // console.log('Non picture should score value: ',getCardScore('7'));
 
-const stdDeck = buildDeck();
-// console.log('Std-Deck',stdDeck);
 
 
 const getRandomInt = (max) => {
@@ -87,10 +85,33 @@ const shuffle =(deck) => {
     return shuffledDeck;
 };
 
+class BlackjackGame {
+    constructor(cardDeck){
+        this.cards = cardDeck;
+    };
 
-let shuffledCards = shuffle(stdDeck);
+    dealHand= (playerName) => {
+        let dealerHand = new Hand(playerName, this.cards.pop(), this.cards.pop());
+    };
 
-// console.log('Shuffled-Deck',shuffledCards);
+    startGame= () =>{
+        let playerHand = dealHand('Sam');
+        let dealerHand = dealHand('Dealer');
+
+        
+    };
+
+    playersTurn = () =>{
+
+    };
+
+    dealersTurn = () => {
+
+    };
+}
+
+
+const game = new BlackjackGame(shuffle(buildDeck()));
 
 
 let dealerHand = new Hand('Dealer', shuffledCards.pop(), shuffledCards.pop());
