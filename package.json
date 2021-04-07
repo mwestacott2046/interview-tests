@@ -1,12 +1,12 @@
 {
   "dependencies": {
-    "jest": "^26.6.3"
+    "jest": "^26.6.3",
+    "readline-sync": "^1.4.10"
   },
   "name": "interview-tests",
   "description": "A selection of solutions to interview tests.",
   "version": "1.0.0",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "test": "jest",
     "test-watch": "jest --watchAll"
